@@ -1,0 +1,186 @@
+
+header{
+    position: absolute;
+        width: 1201.28px;
+        height: 25px;
+        left: 154.32px;
+        top: 71px;
+}
+
+.image-logo{
+    position: absolute;
+        width: 25.34px;
+        height: 25px;
+        left: 154.32px;
+        top: 71px;
+}
+
+.brand{
+    position: absolute;
+        width: 64.87px;
+        height: 20px;
+        left: 180px;
+        top: 73px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+    
+    
+        color: #533738;
+}
+
+.company{
+    position: absolute;
+        width: 108.22px;
+        height: 20px;
+        left: 334px;
+        top: 73px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+           
+ 
+        color: #533738;
+}
+
+.portfolio{
+    position: absolute;
+        width: 96px;
+        height: 20px;
+        left: 468.66px;
+        top: 73px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        
+        color: #533738;
+}
+.stuff{
+    position: absolute;
+        width: 74.84px;
+        height: 20px;
+        left: 590.66px;
+        top: 73px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        
+        color: #533738;
+}
+
+.work{
+    position: absolute;
+        width: 145.64px;
+        height: 20px;
+        left: 691.66px;
+        top: 73px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        
+        color: #533738;
+}
+.sub{
+    position: absolute;
+        width: 148.68px;
+        height: 20px;
+        left: 863.66px;
+        top: 73px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        
+        color: #533738;
+}
+.whrite{
+position: absolute;
+    width: 137.55px;
+    height: 20px;
+    left: 1038.66px;
+    top: 73px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+   
+    color: #533738;
+}
+.number{
+    position: absolute;
+        width: 144.63px;
+        height: 20px;
+        left: 1210.97px;
+        top: 73px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        
+        color: #533738;
+}
+h1{
+    position: absolute;
+        width: 534.02px;
+        height: 186px;
+        left: 240.08px;
+        top: 187px;
+    
+      
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 62px;
+        
+    
+    
+        color: #533738;
+}
+.about-content{
+    position: absolute;
+        width: 493.57px;
+        height: 90px;
+        left: 240.08px;
+        top: 397px;
+    
+      
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        
+        color: #533738;
+}
+.rectangle{
+    position: absolute;
+        width: 309.14px;
+        height: 74px;
+        left: 238px;
+        top: 508px;
+}
