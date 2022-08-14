@@ -3,46 +3,311 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-
+    <meta name="viewport" content="wispanh=device-wispanh, initial-scale=1.0" />
     <title>SCANDI</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <header class="header">
+    <header class="page-header">
       <div>
-        <img class="image-logo" src="img/logo.png" alt="logo" />
+        <a class="logo" href="#">
+          <img src="img/style/logo.png" alt="logo" width="25" height="25"
+        /></a>
+        <a class="logo-header" href="#">SCANDI</a>
       </div>
-      <div class="brand">SCANDI</div>
       <nav>
-        <ul>
-          <li class="company">О компании</li>
-          <li class="portfolio">Портфолио</li>
-          <li class="stuff">Команда</li>
-          <li class="work">Как мы работаем</li>
-          <li class="sub">Отзывы клиентов</li>
-          <li class="whrite">Оставить заявку</li>
-          <li class="number">Номер телефона</li>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="about" class="nav-link">О компании</a>
+          </li>
+          <li class="nav-item">
+            <a href="works" class="nav-link">Портфолио</a>
+          </li>
+          <li class="nav-item"><a href="team" class="nav-link">Команда</a></li>
+          <li class="nav-item">
+            <a href="process" class="nav-link">Как мы работаем</a>
+          </li>
+          <li class="nav-item">
+            <a href="reviews" class="nav-link">Отзывы клиентов</a>
+          </li>
+          <li class="nav-item">
+            <a href="form" class="nav-link">Оставить заявку</a>
+          </li>
         </ul>
+        <div class="phone">Номер телефона</div>
       </nav>
     </header>
-
     <main>
-      <section>
-        <h1>Поможем сделать вашу квартиру уютнее</h1>
-        <p class="about-content">
-          Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим
-          магазины и помогаем организовать доставку
-        </p>
-        <a class="rectangle" href="#">Оставить заявку</a>
+      <section class="promo">
+        <div class="container">
+          <div class="promo-text">
+            <h1 class="main-heading">Поможем сделать вашу квартиру уютнее</h1>
+            <p class="promo-description">
+              Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим
+              магазины и помогаем организовать доставку
+            </p>
+            <a href="form" class="button promo-button">Оставить заявку</a>
+          </div>
+        </div>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section class="about section2">
+        <div class="container">
+          <h2 class="about-heading">О нас</h2>
+          <div class="section2">
+            <img
+              src="img/about/goblets.png"
+              class="about-img"
+              alt="бокалы"
+              width="445"
+              height="465"
+            />
+          </div>
+          <article class="section2-text">
+            <p class="about-text">
+              Премиальный европейский текстиль — одно из самых главных
+              направлений работы коллектива. Создавать неповторимые интерьеры
+              для наших дорогих клиентов, уделяя внимание мельчайшим деталям —
+              вот то, что по-настоящему вдохновляет дизайнеров нашей студии.
+            </p>
+            <p class="about-text">
+              Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам
+              было приятно сказать: « Да! Это именно то, что действительно
+              достойно моего дома!»
+            </p>
+          </article>
+          <div class="about-statistics">
+            <div class="stat">
+              <span class="about-stat-number">5</span>
+              <span class="about-stat-text">лет опыта</span>
+            </div>
+            <div class="stat">
+              <span class="about-stat-number">100</span>
+              <span class="about-stat-text">проектов</span>
+            </div>
+            <div class="stat">
+              <span class="about-stat-number">10</span>
+              <span class="about-stat-text">наград</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio section3">
+        <h2 class="portfolio-heading">Наши работы</h2>
+        <div class="bedroom">
+          <img src="img/works/bedroom.png" alt="bed" width="488" height="451" />
+        </div>
+        <div class="hover-content">
+          <h3 class="portfolio-subtitle">Квартира-студия 30 кв.м.</h3>
+          <p class="portfolio-text">
+            В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
+            на отсылках к природе и сделали ребятам уютный интерьер, отсылающий
+            к виллам островов Бали.
+          </p>
+        </div>
+        <div class="dinning-room">
+          <img
+            src="img/works/dinning-room.png"
+            alt="dinning-room"
+            width="692"
+            height="451"
+          />
+        </div>
+        <div class="sitting-room">
+          <img
+            src="img/works/sitting-room.png"
+            alt="sitting-room"
+            width="692"
+            height="451"
+          />
+        </div>
+        <div class="bathroom">
+          <img
+            src="img/works/bathroom.png"
+            alt="bathroom"
+            width="488"
+            height="451"
+          />
+        </div>
+        <div>
+          <button class="button button-portfolio" type="button">
+            Смотреть еще<img src="img/style/arrow3.svg" alt="arrow" />
+          </button>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container-small">
+          <h2 class="team-header">Команда</h2>
+          <div>
+            <span
+              ><img
+                class="team-img"
+                src="img/team/masha.png"
+                alt="masha"
+                width="320"
+                height="253"
+            /></span>
+            <p class="team-text">
+              Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект,
+              приезжает к вам домой, общается и помогает сделать вашу квартиру
+              красивой и уютной.
+            </p>
+          </div>
+          <div>
+            <span
+              ><img
+                class="team-img"
+                src="img/team/sasha.png"
+                alt="sasha"
+                width="320"
+                height="253"
+            /></span>
+            <p class="team-text">
+              С нашим менеджером Сашей вы познакомитесь в первую очередь. Она
+              проконсультирует вас, соберёт все документы и ответит на все
+              вопросы.
+            </p>
+          </div>
+          <div>
+            <span
+              ><img
+                class="team-img"
+                src="img/team/katia.png"
+                alt="katia"
+                width="320"
+                height="253"
+            /></span>
+            <p class="team-text">
+              Катя тоже занимается дизайном. Она всегда находит общий язык с
+              клиентами и точно знает, как обустроить дом так, чтобы вам
+              понравилось.
+            </p>
+          </div>
+        </div>
+        <div>
+          <h2 class="team-header2">Как мы работаем</h2>
+          <ol>
+            <li class="our-work-item">
+              <p class="our-work-text">
+                Знакомимся, выезжаем на объект, утверждаем концепцию,
+                подписываем договор.
+              </p>
+            </li>
+            <li class="our-work-item">
+              <p class="our-work-text">
+                Подбираем мебель, текстиль, аксессуары. Делаем 3D- визуализацию.
+              </p>
+            </li>
+            <li class="our-work-item">
+              <p class="our-work-text">
+                Находим нужные магазины, помогаем с доставкой и оплатой товаров.
+              </p>
+            </li>
+            <li class="our-work-item">
+              <p class="our-work-text">
+                Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем
+                шторы, находим места для мелочей
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="reviews">
+        <h2 class="reviews-header">Отзывы</h2>
+        <div class="reviews-slider">
+          <button class="button-slider" type="button">
+            <img
+              class="button-arrow"
+              src="img/style/arrow2.svg"
+              alt="Назад."
+              width="32"
+              height="16"
+            />
+          </button>
+          <div class="reviews-content">
+            <blockquote class="reviews-blockquote">
+              <p class="reviews-text">
+                «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала
+                вашу студию для украшения своего дома.
+              </p>
+              <p class="reviews-text">
+                Работа шла быстро, было очень приятно общаться и
+                взаимодествовать с сотрудниками. Не ожидала, что это будет так
+                легко!
+              </p>
+              <p class="reviews-text">
+                Буду советовать и своим друзьям к вам обращаться!»
+              </p>
+            </blockquote>
+            <p class="reviews-author">АННА БЕЛОВСКАЯ</p>
+            <img
+              class="reviews-img"
+              src="img/comment/chairs.png"
+              alt="chairs"
+              width="407"
+              height="272"
+            />
+            <img
+              class="reviews-img"
+              src="img/comment/dinning-table.png"
+              alt="dinnig-table"
+              width="407"
+              height="272"
+            />
+          </div>
+          <button class="button-next" type="button">
+            <img
+              class="button-arrow"
+              src="img/style/arrow1.svg"
+              alt="Вперед"
+              width="32"
+              height="16"
+            />
+          </button>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="feedback-content">
+          <h2 class="feedback-header">Оставить заявку</h2>
+          <form class="form" action="#">
+            <p class="form-text">
+              Оставьте свои контакты. Менеджер перезвонит в&nbsp;удобное вам
+              время и ответит на все вопросы.
+            </p>
+            <input
+              class="form-input"
+              type="text"
+              name="name"
+              placeholder="Ваше имя"
+              required
+            />
+            <input
+              class="form-input form-input-tel"
+              type="tel"
+              name="tel"
+              placeholder="Введите телефон"
+              required
+            />
+            <button class="button button-form" type="submit">
+              Оставить заявку
+            </button>
+          </form>
+        </div>
+        <div class="map">
+          <img src="img/nav/map.png" alt="map" width="590" height="624" />
+        </div>
+      </section>
     </main>
-
-    <footer></footer>
+    <footer>
+      <div class="footer-phone">номер телефона</div>
+      <div class="footer-address">адресс</div>
+      <div class="footer-item">ИП Королёва А.А.</div>
+    </footer>
   </body>
 </html>
