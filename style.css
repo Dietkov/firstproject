@@ -76,30 +76,24 @@ a:active {
   0% {
     right: 0;
   }
-
   50% {
     right: -5px;
   }
-
   100% {
     right: 0;
   }
 }
-
 @keyframes move-left {
   0% {
     transform: translateX(0);
   }
-
   50% {
     transform: translateX(-5px);
   }
-
   100% {
     transform: translateX(0);
   }
 }
-
 @keyframes move-right {
   0% {
     transform: translateX(0);
@@ -108,11 +102,11 @@ a:active {
   50% {
     transform: translateX(5px);
   }
-
   100% {
     transform: translateX(0);
   }
 }
+
 /* Header */
 .header {
   min-height: 715px;
