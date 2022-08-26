@@ -34,9 +34,6 @@ a:active {
   filter: none;
 }
 .page {
-  display: grid;
-  grid-template-rows: max-content 1fr max-content;
-  min-height: 100vh;
   font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-size: 18px;
