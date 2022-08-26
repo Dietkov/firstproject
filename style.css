@@ -108,7 +108,7 @@ a:active {
 .header {
   min-height: 715px;
   padding-top: 36px;
-  background-image: url("/img/style/background.png");
+  background-image: url(https://dietkov.github.io/firstproject/img/style/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
